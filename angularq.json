@@ -1,0 +1,526 @@
+[
+  {
+    "_id": 1,
+    "name": "angular",
+    "list": [
+      {
+        "id": 1,
+        "title": "How to install Angular",
+        "description": "<h1>How to install Angular</h1><p>Install Node.js and npm<p>Install Angular CLI globally<p>Run Angular CLI commands<p>Create an initial workspace for the application<p>Run the Angular application in your browser<p>    Here are some more details:<ul><li>To install Angular CLI, you can open a terminal and run the command npm install -g @angular/cli <li>On Windows, you might need to set the execution policy to allow the execution of PowerShell scripts <li>To create a new project, you can run the command ng new &lt;project-name> <li>To verify the installed version of Angular CLI, you can run the command ng --version <li>To run the Angular application, you can run the command ng serve -open <li>You can open your favorite web browser and go to http://localhost:4200 to see your new Angular application</ul>"
+      },
+      {
+        "id": 2,
+        "title": "What is Decorator in Angular",
+        "description": "<h1>What is Decorator in Angular?</h1><p class=demoTitle> <ul><li data-end=254 data-start=100><ul data-end=406 data-start=100><li data-end=254 data-start=100><p data-end=254 data-start=102>In <strong data-end=133 data-start=105>Angular (and TypeScript)</strong>, a <strong data-end=150 data-start=137>decorator</strong> is a special kind of declaration that can be attached to a <strong data-end=251 data-start=210>class, method, property, or parameter</strong>.<li data-end=364 data-start=255><p data-end=364 data-start=257>Decorators provide <strong data-end=288 data-start=276>metadata</strong> that Angular uses to understand how a class or piece of code should work.<li data-end=406 data-start=365><p data-end=406 data-start=367>They are functions prefixed with <code data-end=403 data-start=400>@</code>.</ul><p data-end=419 data-start=408>👉 Example:<div class='bg-token-sidebar-surface-primary contain-inline-size relative rounded-2xl'><div class='sticky top-9'> </div><div class='overflow-y-auto p-4'dir=ltr><code class='language-ts whitespace-pre!'><span class=hljs-meta>@Component</span>({ <span class=hljs-attr>selector</span>: <span class=hljs-string>'app-root'</span>, <span class=hljs-attr>templateUrl</span>: <span class=hljs-string>'./app.component.html'</span>, }) <span class=hljs-keyword>export</span> <span class=hljs-keyword>class</span> <span class='class_ hljs-title'>AppComponent</span> { title = <span class=hljs-string>'my-app'</span>; }</code></div></div><p data-end=706 data-start=560>Here <code data-end=577 data-start=565>@Component</code> is a <strong data-end=596 data-start=583>decorator</strong>. It tells Angular that <code data-end=634 data-start=620>AppComponent</code> is a component and provides metadata like <code data-end=687 data-start=677>selector</code> and <code data-end=705 data-start=692>templateUrl</code>.</ul><p> "
+      },
+      {
+        "id": 2,
+        "title": "What is Decorator and explain about class Decorator",
+        "description": "<h1>What is Decorator and explain about class Decorator</h1><p>A decorator is a function or class that can be used to modify or enhance the behavior of a class or function without changing the source code.<p> <p>Decorators are used to add metadata and modify the behavior of classes, properties, methods, and parameters. For example, the @Component decorator marks a class as an Angular component.<p> <p><strong>Class Decorators:</strong> Class decorators are applied to classes to modify their behavior or metadata. The examples include <code>@Component</code>, <code>@Directive</code> and <code>@NgModule</code>"
+      },
+      {
+        "id": 3,
+        "title": "Types of Decorators in Angular",
+        "description": "<h1>Types of Decorators in Angular</h1><p>In Angular, there are four main types of decorators<strong>-</strong><ol><li><strong>Class Decorators:</strong>Class decorators are applied to classes to modify their behavior or metadata. The examples include @Component, @Directive and @NgModule.<li><strong>Property Decorators:</strong>Property decorators are applied to the class properties and are commonly used to modify the properties within the classes. For example, @Input decorator makes a property as an input binding, allowing it to bound to the external data.<li><strong>Method Decorators:</strong>Method decorators are applied to the class methods and modify their behavior or add additional functionalities. For example, @HostListener allows us to listen for events on a method.<li><strong>Parameter Decorators:</strong>The Parameter decorators are used for parameters inside class constructors. The parameter decorators provide additional information about constructor parameters. For example, The @Inject decorator allows to specify dependencies for dependency injection.</ol>"
+      },
+      {
+        "id": 4,
+        "title": "What is NPM",
+        "description": "<h1>What is NPM</h1><p>NPM, or Node Package Manager, is a free, open-source registry and package manager for JavaScript software packages: <p>NPM is a repository for publishing open-source projects, and a command-line interface (CLI) for interacting with the repository. It's the default package manager for Node.js, and is included in the Node.js installer."
+      },
+      {
+        "id": 5,
+        "title": "What is the output of 2 – “2” in javascript",
+        "description": "<h1>The output in Javascript is: 0</h1>"
+      },
+      {
+        "id": 6,
+        "title": "What is the difference between undefined and Null?",
+        "description": "<h1>What is the difference between undefined and Null?</h1><p><strong>null</strong><p>A value that represents nothing, or an empty container. It's an assignment value that can be explicitly set to a variable. null is a valid JSON data type.<p> <p><strong>undefined</strong><p>A variable that has been declared but not yet assigned a value. It's one of JavaScript's primitive types."
+      },
+      {
+        "id": 7,
+        "title": "Difference between let and var",
+        "description": "<h1>Difference between let and var</h1><p>In JavaScript, the main difference between the keywords let and var is the scope of the variables they create: <ul><li><strong>Scope</strong>: Variables declared with <strong>let</strong> are block-scoped, meaning they are only available within the block where they are defined. Variables declared with <strong>var</strong> are function-scoped, meaning they are available throughout the function in which they are declared. <li><strong>Hoisting</strong>: Variables declared with <strong>var</strong> are hoisted and initialized with <strong>undefined</strong>, meaning they are accessible in their scope before the actual declaration line. Variables declared with <strong>let</strong> are in the Temporal Dead Zone (TDZ) from the start of their block until the declaration is executed. </ul><p><strong>Redeclaration</strong>: Redeclaring a variable in the same block with <strong>let</strong> is not allowed."
+      },
+      {
+        "id": 8,
+        "title": "What is event bubbling",
+        "description": "<h1>What is event bubbling</h1><p>Event bubbling is a fundamental concept in the DOM's event propagation mechanism. The opposite of event bubbling is event capturing, also known as trickling, where the event starts from the root of the DOM tree and propagates down to the target element.<table width=632><tr><td><p>Example<td><p>If you click a button inside a form, the click event will bubble up to the form and then to any other parent elements.</table>"
+      },
+      {
+        "id": 9,
+        "title": "What is the use of package.json file",
+        "description": "<h1>What is the use of package.json file</h1><p>A package.json file is a fundamental part of Node.js and JavaScript projects, and is used for a variety of purposes, including:<ul><li><strong>Managing dependencies</strong></ul><p>The package.json file lists the packages a project depends on, and the versions of those packages. This helps ensure that the correct version of each package is installed, making it easier to maintain the project. <ul><li><strong>Automating tasks</strong></ul><p>The package.json file can be used to automate tasks such as building the project, running tests, and starting the application. <ul><li><strong>Publishing projects</strong></ul><p>The package.json file allows developers to publish their projects to the npm registry, making them available for other users to install. <ul><li><strong>Storing metadata</strong></ul><p>The package.json file stores information about the project, such as its name, version number, author, license, and more. <ul><li><strong>Making builds reproducible</strong></ul><p>The package.json file makes builds reproducible, making it easier to share the project with other developers. <ul><li><strong>Streamlining development</strong></ul><p>The package.json file is a tool that helps streamline, modularize, and make modern development more efficient. <p>The package.json file is created when a new Node.js project is initialized using the npm init command."
+      },
+      {
+        "id": 10,
+        "title": "What is hoisting",
+        "description": "<h1>What is hoisting</h1><p>Hoisting is a JavaScript mechanism that moves variable and function declarations to the top of their scope before the code is executed. This allows the use of variables and functions before they are declared in the code.<ul><li>Hoisting only moves the declaration, not the assignments. <li>Hoisting only applies to normal functions, not those defined with the const keyword. <li>Variables declared with var are hoisted to the top of their function or global scope. </ul><p>Hoisting allows variables declared with var to be accessed before declaration, but not those declared with let or const."
+      },
+      {
+        "id": 11,
+        "title": "What is promise, call back",
+        "description": "<h1>What is promise, call back</h1><p><strong>Promise</strong><p>a promise is an object that represents the eventual completion or failure of an asynchronous operation: <p>Promises allow you to associate handlers with the success or failure of an asynchronous action.<p>Promises are the foundation of asynchronous programming in modern JavaScript. For example, the fetch() method returns a promise that resolves to a Response object.<p>A promise can have three states: <ul><li><strong>Pending</strong>: The initial state of a promise <li><strong>Fulfilled</strong>: The state of a promise representing a successful operation <li><strong>Rejected</strong>: The state of a promise representing an operation that failed</ul><p><strong>call back</strong><p>callback is a function which is to be executed after another function has finished execution. A more formal definition would be - Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function."
+      },
+      {
+        "id": 12,
+        "title": "What is call back hell",
+        "description": "<h1>What is call back hell</h1><p>Callback hell is a situation where multiple callbacks are nested within each other, making the code difficult to read, understand, and maintain: <p>Some downsides of callback hell include: <ul><li><strong>Readability</strong>: The code is hard to read, and understanding the logic can be difficult.<li><strong>Maintainability</strong>: Making changes or debugging such code is error-prone and time-consuming.<li><strong>Error handling</strong>: Error handling can become cumbersome, leading to potential bugs.</ul><p>To improve readability and make testing and debugging easier, you can break down your code into smaller, reusable functions. You can also use the JavaScript Promise object to deal with asynchronous behavior. "
+      },
+      {
+        "id": 13,
+        "title": "What is self invoking",
+        "description": "<h1>What is self invoking</h1><p>A self-invoking expression is invoked (started) automatically, without being called. Function expressions will execute automatically if the expression is followed by (). You cannot self-invoke a function declaration."
+      },
+      {
+        "id": 14,
+        "title": "What is closure",
+        "description": "<h1>What is closure</h1><p>A function that has access to the variables in its parent scope, even after the parent function has returned. Closures are created when a function is defined inside another function, and the inner function retains access to the variables in the outer function's scope. <p> <p>Here's an example of a closure:</p><code>const add = (function () { let counter = 0; return function () {counter += 1; return counter} })(); add(); add(); add(); * // the counter is now 3</code>"
+      },
+      {
+        "id": 15,
+        "title": "What is box model",
+        "description": "<h1>What is box model</h1><p>Box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. "
+      },
+      {
+        "id": 16,
+        "title": "Describe about section and article",
+        "description": "<h1>Describe about section and article</h1><p>The &lt;section> and &lt;article> tags are both used to group content semantically, but they have different uses: <ul><li>&lt;section></ul><p>Used to group content based on a theme, or when a generic section is needed. For example, you might use a &lt;section> tag for chapters, tabbed pages, or numbered sections in a thesis.<ul><li>&lt;article></ul><p>Used to represent a self-contained piece of content that can be reused on its own. For example, you might use an &lt;article> tag for blog posts, news articles, or forum posts."
+      },
+      {
+        "id": 17,
+        "title": "Can we put article inside footer tag",
+        "description": "<h1>Can we put article inside footer tag</h1><p>Yes, the &lt;footer> tag can be used inside elements like &lt;article>, &lt;section>, or &lt;aside>. "
+      },
+      {
+        "id": 18,
+        "title": "What is pseudo elements in css",
+        "description": "<h1>What is pseudo elements in css</h1><p>pseudo-element is used to style specific parts of an element.<p>For example, it can be used to:<ul><li>Style the first letter or line, of an element<li>Insert content before or after an element<li>Style the markers of list items</ul><p>Style the viewbox behind a dialog box"
+      },
+      {
+        "id": 19,
+        "title": "Display inline and inline block",
+        "description": "<h1>Display inline and inline block</h1><p>the major difference is that<p>display: inline-block allows to set a width and height on the element.<p>display: inline , top and bottom margins & paddings are not respected, and with display: inline-block they are."
+      },
+      {
+        "id": 20,
+        "title": "What is “this” keyword in typescript",
+        "description": "<h1>What is “this” keyword in typescript</h1><p>'<strong>this</strong>' is referring to an object's current instance in a function, granting access to its properties and methods. It's essential to declare '<strong>this</strong>' types for safety while using functions in TypeScript and properly declare the type of '<strong>this</strong>'."
+      },
+      {
+        "id": 21,
+        "title": "What is prototype",
+        "description": "<h1>What is prototype</h1><p>Prototype is&nbsp;an object that provides properties and methods for other objects to inherit from.</p>"
+      },
+      {
+        "id": 22,
+        "title": "What is scope and type of scope",
+        "description": "<h1>What is scope and type of scope</h1><p>JavaScript has the following kinds of scopes:<p><strong>Global scope</strong>: The default scope for all code running in script mode. <p><strong>Module scope:</strong> The scope for code running in module mode. <p><strong>Function scope / Block scope:</strong> The scope created with a function."
+      },
+      {
+        "id": 23,
+        "title": "What is constructor & why constructor",
+        "description": "<h1>What is constructor & why constructor</h1><p>An Angular constructor is a function that is used to initialize an Angular application. The constructor is run when the application is first created, and it is responsible for setting up the Angular environment.<p> <p>In Angular, constructors are used to inject dependencies, such as services or other components, into a component."
+      },
+      {
+        "id": 24,
+        "title": "what is transpiler",
+        "description": "<h1>what is transpiler</h1><p>Transpilers, or source-to-source compilers, are tools that read the sourcecode written in one programming language and produce the equivalent code in another programming language with a similar level of abstraction. A good example of transpiler is the Typescript transpiler which converts Typescript code to JavaScript."
+      },
+      {
+        "id": 25,
+        "title": "Is JavaScript support Object",
+        "description": "<h1>Is JavaScript support Object</h1><p>Yes, JavaScript supports objects and is considered an object-oriented language:<p>JavaScript is a prototype-based language, meaning that classes are not explicitly defined. Instead, classes are derived by adding properties and methods to an instance of another class."
+      },
+      {
+        "id": 26,
+        "title": "What is DOM and why we require DOM",
+        "description": "<h1>What is DOM and why we require DOM</h1><p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page."
+      },
+      {
+        "id": 27,
+        "title": "Lifecycle method in Angular",
+        "description": "<h1>Lifecycle method in Angular</h1><table width=708><tr><td><p><br>constructor<td width=221><p>Standard JavaScript class constructor . Runs when Angular instantiates the component.<td width=386><p> <tr><td rowspan=7><p>Change<p>Detection<td width=221><p>ngOnInit<td width=386><p>Runs once after Angular has initialized all the component's inputs.<tr><td width=221><p>ngOnChanges<td width=386><p>Runs every time the component's inputs have changed.<tr><td width=221><p>ngDoCheck<td width=386><p>Runs every time this component is checked for changes.<tr><td width=221><p>ngAfterContentInit<td width=386><p>Runs once after the component's <em>content</em> has been initialized.<tr><td width=221><p>ngAfterContentChecked<td width=386><p>Runs every time this component content has been checked for changes.<tr><td width=221><p>ngAfterViewInit<td width=386><p>Runs once after the component's <em>view</em> has been initialized.<tr><td width=221><p>ngAfterViewChecked<td width=386><p>Runs every time the component's view has been checked for changes.<tr><td rowspan=2><p>Rendering<td width=221><p>afterNextRender<td width=386><p>Runs once the next time that <strong>all</strong> components have been rendered to the DOM.<tr><td width=221><p>afterRender<td width=386><p>Runs every time <strong>all</strong> components have been rendered to the DOM.<tr><td><p>Destruction<td width=221><p>ngOnDestroy<td width=386><p>Runs once before the component is destroyed.</table>"
+      },
+      {
+        "id": 28,
+        "title": "Difference between constructor () vs ngOnInit()",
+        "description": "<h1>Difference between constructor () vs ngOnInit()</h1><p>the constructor() is a special method used to initialize a class instance and inject dependencies, while ngOnInit() is an Angular-specific life cycle hook that runs after the component is fully initialized, allowing for the execution of logic once bindings and properties (such as @Input ) are available."
+      },
+      {
+        "id": 29,
+        "title": "What is module.export",
+        "description": "<h1>What is module.export</h1>"
+      },
+      {
+        "id": 30,
+        "title": "What is ngFor",
+        "description": "<h1>What is ngFor</h1><p>ngFor is a specific type of directive used to dynamically repeat data in a template. In plain JavaScript you would use a for loop - ngFor provides similar functionality for Angular templates. You can utilize ngFor to iterate over arrays and even asynchronous values."
+      },
+      {
+        "id": 31,
+        "title": "Why node.js is asynchronous",
+        "description": "<h1>Why node.js is asynchronous</h1><p>asynchronous nature allows it to handle a large number of concurrent connections efficiently. By leveraging non-blocking I/O operations and asynchronous event handling, Node. js can serve multiple clients simultaneously without consuming excessive resources"
+      },
+      {
+        "id": 32,
+        "title": "What is async & await",
+        "description": "<h1>What is async & await</h1><p>Async and await are keywords in Node.js that help manage tasks that take time, like waiting for a response from an API: <ul><li><strong>Async</strong>: Marks a function as asynchronous and makes it always return a promise<li><strong>Await</strong>: Pauses execution until a promise is resolved</ul>"
+      },
+      {
+        "id": 33,
+        "title": "What is REPL",
+        "description": "<h1>What is REPL</h1><p>Read-Eval-Print-Loop (REPL) is an interactive shell that processes Node. js expressions. The shell reads JavaScript code the user enters, evaluates the result of interpreting the line of code, prints the result to the user, and loops until the user signals to quit. The REPL is bundled with every Node."
+      },
+      {
+        "id": 34,
+        "title": "What is blocking quote",
+        "description": "<h1>What is blocking quote</h1><p>Block quotation is a method of formatting to highlight sections of directly quoted text in your writing. Direct quotes are usually integrated directly into your own text, but when quotes meet certain guidelines, block quotations are used instead."
+      },
+      {
+        "id": 35,
+        "title": "Event looping",
+        "description": "<h1>Event looping</h1><p>When Node. js starts, it initializes the event loop, processes the provided input script (or drops into the REPL, which is not covered in this document) which may make async API calls, schedule timers, or call process. nextTick() , then begins processing the event loop."
+      }
+      ,
+      {
+        "id": 36,
+        "title": "Event emitter & emitter function",
+        "description": "<h1>Event emitter & emitter function</h1><p>Event emitters are objects in Node. js that trigger an event by sending a message to signal that an action was completed. Developers can write code that listens to events from an event emitter, allowing them to execute functions every time those events are triggered."
+      },
+      {
+        "id": 37,
+        "title": "What is buffer",
+        "description": "<h1>What is buffer</h1><p>In Node, Buffer is used to store and manage binary data.It is not problematic when we perform an operation on data at the browser level but at the time of dealing with TCP stream and performing a read-write operation on the file system is required to deal with pure binary data."
+      },
+      {
+        "id": 38,
+        "title": "What is sharding",
+        "description": "<h1>What is sharding</h1><p>Sharding is a form of horizontal scaling, also known as scale-out, that allows for near-limitless scaling"
+      },
+      {
+        "id": 39,
+        "title": "What is projection",
+        "description": "<h1>What is projection</h1><p>MongoDB provides a special feature that is known as Projection. It allows you to select only the necessary data rather than selecting whole data from the document. For example, a document contains 5 fields, i.e., { name: 'Roma', age: 30, branch: EEE, department: 'HR', salary: 20000 }"
+      },
+      {
+        "id": 40,
+        "title": "Semantic tags in HTML 5",
+        "description": "<h1>Semantic tags in HTML 5</h1><p>Semantic HTML tags provide meaning to web content, making it clear to browsers, developers, and search engines. HTML5 introduces semantic tags like &lt;header>, &lt;footer>, &lt;nav>, &lt;section>, &lt;article>, &lt;aside>, and &lt;main>. These tags define different structural elements of a web page."
+      },
+      {
+        "id": 41,
+        "title": "Difference between p and span tag in html",
+        "description": "<h1>Difference between p and span tag in html</h1><p>This is the main difference between the two tags ( &lt;p> and &lt;span> ): the amount of space they take up. This makes the &lt;p> tag a block-level element because it takes up the full width of the page and the &lt;span> tag an inline element because it only takes up the space it needs to display the text inside it."
+      },
+      {
+        "id": 42,
+        "title": "what is padding vs margin in css",
+        "description": "<h1>what is padding vs margin in css</h1><p>The main difference between padding and margin is that padding is the space between the element's content and its border, while margin is the space between the element's border and the next element. Padding is used to create space within an element, while margin is used to create space between elements."
+      },
+      {
+        "id": 43,
+        "title": "what is box sizing in css",
+        "description": "<h1>what is box sizing in css</h1><p>It allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, padding and border are included in the width and height:"
+      },
+      {
+        "id": 44,
+        "title": "What are the features in css3",
+        "description": "<h1>What are the features in css3</h1><p>Here are some features of CSS3:<ul><li><strong>Flexbox</strong>: A layout mode that makes it easier to position child elements and create complex layouts with cleaner code <li><strong>Generated content</strong>: Allows developers to embed content into web pages without using HTML <li><strong>Counters</strong>: Tracks list items and element appearances <li><strong>CSS functions</strong>: Can be used to calculate values, manipulate strings or colors, create complex gradients and shapes, and more <li><strong>Pseudo classes</strong>: The :focus-visible pseudo-class applies styles to elements that are navigated via keyboard <li><strong>3D transforms</strong>: Allows you to use rotations, scales and skews to DOM elements <li><strong>Box-shadow</strong>: Allows you to add inner or outer drop shadows directly to any HTML element without graphics <li><strong>Gradients</strong>: Allows web designers to create smooth transitions between colors without having to resort to images <li><strong>Animations</strong>: Allows you to use both Transition and Animation when changing a component starting with one state and moving/transitioning to the next</ul>"
+      },
+      {
+        "id": 45,
+        "title": "What is call(), apply() and bind()",
+        "description": "<h1>What is call(), apply() and bind()</h1>"
+      },
+      {
+        "id": 46,
+        "title": "What is middleware in node.js",
+        "description": "<h1>What is middleware in node.js</h1><p>Middleware in Node.js is a function that acts as an intermediary between software layers, processing requests and responses: <ul><li><strong>What it does</strong></ul><p>Middleware can modify request and response objects, execute code, and terminate the request-response cycle. <ul><li><strong>When it's used</strong></ul><p>Middleware is used to process incoming requests before they reach their final destination and handle outgoing responses before they are sent back to the client. <ul><li><strong>How it's used</strong></ul><p>Middleware can be used for tasks like analyzing the currently logged-in user, setting custom headers for response objects, and validating user object addition. <ul><li><strong>How it's applied</strong></ul><p>Middleware is applied using routes, and the next middleware function is commonly represented as a variable named next. <p>Middleware is a powerful feature in Node.js, which is popular for building scalable and efficient web applications."
+      },
+      {
+        "id": 47,
+        "title": "Syntax of middleware",
+        "description": "<h1>Syntax of middleware</h1><p><code>var express = require('express'); var app = express(); app.get('/', function(req, res) { res.send('Welcome to JavaTpoint!'); }); app.get('/help', function(req, res) { res.send('How can I help You?'); }); var server = app.listen(8000, function () { var host = server.address().address var port = server.address().port console.log('Example app listening at http://%s:%s', host, port) })</code></p>"
+      },
+      {
+        "id": 48,
+        "title": "How to restrict HTTP method in middleware",
+        "description": "<h1>How to restrict HTTP method in middleware</h1><p>// before your other code check supported methods<p>// assuming these ones are, just add/remove ones to customize<p>if (!/^(GET|PUT|POST|DELETE)$/.test(req.method)) {<p>  res.status(400).end('bad request');<p>  return;<p>}<p> <p>// your code goes here now"
+      },
+      {
+        "id": 49,
+        "title": "What are the global objects",
+        "description": "<h1>What are the global objects</h1><p>The objects listed here are specific to Node.js. There are built-in objects that are part of the JavaScript language itself, which are also globally accessible."
+      },
+      {
+        "id": 50,
+        "title": "What is process.nextTick ().",
+        "description": "<h1>What is process.nextTick ().</h1><p>process. nextTick() is used to schedule a callback function to be invoked in the next iteration of the Event Loop."
+      },
+      {
+        "id": 51,
+        "title": "What will happened when callback response delayed",
+        "description": "<h1>What will happened when callback response delayed</h1><p>If a callback response is delayed, it can cause erratic behavior, especially in complex asynchronous operations. This is because callbacks are asynchronous, meaning they don't guarantee that code will be executed in order.<p>Here are some other things to consider about callbacks:<ul><li><strong>Callback functions</strong></ul><p>A callback function is a function that is passed as an argument to another function so that it can be executed in that other function. <ul><li><strong>Callback hell</strong></ul><p>Callback hell can make code hard to read and understand, and can make it difficult to make changes or debug. <ul><li><strong>Using a timeout</strong></ul><p>A timeout option can be used to ensure that a callback is run before a specified time elapses. <ul><li><strong>Using requestIdleCallback()</strong></ul><p>This method can be used to schedule another callback to take place when the event loop is idle."
+      },
+      {
+        "id": 52,
+        "title": "Syntax of insertMany mongoDB function",
+        "description": "<h1>Syntax of insertMany mongoDB function</h1><p>db.collection.insertMany()<p>[ &lt;document 1> , &lt;document 2>, ... ]<p>{ writeConcern: &lt;document>, ordered: &lt;boolean> }<p>Here's what each parameter means: <ul><li><strong>document</strong>: An array of documents to insert into the collection<li><strong>writeConcern</strong>: An optional document that expresses the write concern<li><strong>ordered</strong>: An optional boolean that specifies whether the mongod instance should perform an ordered or unordered insert</ul><p>The insertMany() method is more efficient than inserting documents one by one using insertOne(). However, multi-document transactions usually have a greater performance cost than single document writes."
+      },
+      {
+        "id": 53,
+        "title": "What is body parser in express",
+        "description": "<h1>What is body parser in express</h1><p>Body-parser is a middleware in Express that processes the body of an HTTP request: <ul><li><strong>What it does</strong></ul><p>Body-parser parses the request body and attaches it to the req.body property. This makes it easier to handle POST, PATCH, and PUT requests. <ul><li><strong>How it works</strong></ul><p>Body-parser exposes four middlewares that can parse text, JSON, url-encoded, and raw data. It can also automatically inflate gzip, br (brotli), and deflate encodings. <ul><li><strong>When it's useful</strong></ul><p>Body-parser is useful when you need to know more than just the URL being hit, especially when the information you want is contained in the body of a POST, PATCH, or PUT request. <ul><li><strong>How to use it</strong></ul><p>Body-parser is a dependency of Express version 4.16.0 and later. For versions of Express before 4.16.0, you'll need to install it separately"
+      },
+      {
+        "id": 54,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 55,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 56,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 57,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 58,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 59,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 60,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 61,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 62,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 63,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 64,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 65,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 66,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 67,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 68,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 69,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 70,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 71,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 72,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 73,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 74,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 75,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 76,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 77,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 78,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 79,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 80,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 81,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 82,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 83,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 84,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 85,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 86,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 87,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 88,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 89,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 90,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 91,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 92,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 93,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 94,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 95,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 96,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 96,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 97,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 98,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 99,
+        "title": "",
+        "description": "<h1></h1>"
+      },
+      {
+        "id": 100,
+        "title": "",
+        "description": "<h1></h1>"
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "programs",
+    "list": [
+
+    ]
+  }
+]
